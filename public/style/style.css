@@ -68,7 +68,7 @@
     width: 0%;
     height: 2px;
     background: #6ea8ff;
-    transition: .5s;
+    transition: 5s;
 }
 
 .fieled input:focus~label,
@@ -91,5 +91,24 @@
 
 .btn-submit:hover {
     width: 110%;
-    background-color:#e3a9fc; 
+    background-color:#ca7aec; 
+    transition: 5s;
+}
+
+.form-link {
+    text-align: center;
+    margin: 20px 0;
+    color: rgb(105, 105, 105);
+    font-style: italic;
+    font-size: 16px;
+}
+
+.form-link{
+    text-decoration: none;
+    color: #ca7aec;
+}
+
+.form-link{
+    text-decoration: underline;
+
 }
